@@ -1,0 +1,43 @@
+@media (max-width: $lg){
+  .header__logo{
+    img{
+      width:100px;
+    }
+  }
+  .header__user{
+    gap:15px;
+  }
+  /*SLIDER*/
+  .slide{
+    img{
+      width:$container;
+      height:350px;
+    }
+  }
+  .slider__info{
+    position:absolute;
+    width:340px;
+    top:44px;
+    left:44px;
+    color:white;
+    .slider__title{
+      font-size:rem(20);
+    }
+    .slider__text{
+      margin-top:10px;
+      line-height:20px;
+      margin-bottom:20px;
+    }
+    .slider__button{
+      width:150px;
+      font-size:rem(14);
+    }
+  }
+  /*DELIVERY*/
+   .delivery__link,.delivery__subtitle{
+    font-size: rem(14);
+  }
+  .delivery__title{
+    font-size: rem(18);
+  }
+}

@@ -1,0 +1,33 @@
+@media (max-width: $xl){
+  .header__search{
+    input{
+      width:300px;
+      height: 28px;
+    }
+    button{
+      height: 32px;
+      width:64px;
+      img{
+        width:22px;
+      }
+    }
+  }
+  .slide{
+    img{
+      height:400px;
+    }
+  }
+  .slider__title{
+    font-size:rem(28);
+  }
+  .slider__text{
+  font-size: rem(16);
+  margin-top:13px;
+  line-height:26px;
+  margin-bottom:35px;
+  }
+  /*SELLER*/
+  .seller{
+    gap:10px;
+  }
+}

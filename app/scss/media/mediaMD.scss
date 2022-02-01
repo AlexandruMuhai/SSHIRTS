@@ -1,0 +1,54 @@
+@media (max-width: $md){
+  .header__burger-button{
+    display:block;
+  }
+ .header__user{
+    position:fixed;
+    right:0;
+    color:white;
+    z-index: 2;
+    .white_icon{
+      display:inline-block;
+    }
+    a{
+      color:white;
+    }
+  }
+  .burger__background{
+    z-index: 1;
+  }
+  .header__user{
+    display:flex;
+    justify-content:center;
+    gap:63px;
+    top:90px;
+    width: 70vw;
+    padding: 0 5vw;
+    img{
+      display:none;
+    }
+  }
+  .header__nav{
+    position:fixed;
+    z-index:3;
+    width:80vw;
+    right:0;
+    a{
+      color:white;
+    }
+  }
+  .burger__item{
+    display:none;
+  }
+  /*DELIVERY*/
+  .delivery__card{
+    padding-top: 22px;
+    padding-bottom:22px;
+    height:auto;
+    flex-direction: column;
+    justify-content:flex-start;
+  }
+  .delivery__link{
+    margin-top:12px;
+  }
+}
