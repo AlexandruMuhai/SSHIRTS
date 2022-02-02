@@ -1,7 +1,15 @@
-@media (max-width: $md){
+@media (max-width: $sm){
   .header__search{
-    input{
-      width:150px;
+    position:fixed;
+    z-index: 2;
+    button{
+      background-color:$main;
     }
+    top:300px;
+    right:0;
+    display: none;
+    justify-content: center;
+    width:80vw;
+
   }
 }

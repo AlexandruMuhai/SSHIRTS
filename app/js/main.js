@@ -29,8 +29,15 @@ $(function ()
   $(".header__burger-button").on("click",()=>{
     $(".burger__item").fadeIn("fast",()=>{})
     $(".header__user").css("display","flex")
+    if($(".burger__search").css("position") == "fixed"){
+      $(".burger__search").css("display","flex")
+      $(".burger__search").fadeIn("fast",()=>{})
+    }
   })
   $(".close__button").on("click", ()=>{
     $(".burger__item").fadeOut("fast",()=>{})
+    if($(".burger__search").css("position") == "fixed"){
+      $(".burger__search").fadeOut("fast",()=>{})
+    }
   })
 })

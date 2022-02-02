@@ -1,43 +1,67 @@
-@media (max-width: $lg){
-  .header__logo{
-    img{
-      width:100px;
+@media (max-width: $lg) {
+  .header__logo {
+    img {
+      width: 100px;
     }
   }
-  .header__user{
-    gap:15px;
+
+  .header__user {
+    gap: 15px;
   }
   /*SLIDER*/
-  .slide{
-    img{
-      width:$container;
-      height:350px;
+  .slide {
+    img {
+      width: $container;
+      height: 350px;
     }
   }
-  .slider__info{
-    position:absolute;
-    width:340px;
-    top:44px;
-    left:44px;
-    color:white;
-    .slider__title{
-      font-size:rem(20);
+
+  .slider__info {
+    position: absolute;
+    width: 340px;
+    top: 44px;
+    left: 44px;
+    color: white;
+
+    .slider__title {
+      font-size: rem(20);
     }
-    .slider__text{
-      margin-top:10px;
-      line-height:20px;
-      margin-bottom:20px;
+
+    .slider__text {
+      margin-top: 10px;
+      line-height: 20px;
+      margin-bottom: 20px;
     }
-    .slider__button{
-      width:150px;
-      font-size:rem(14);
+
+    .slider__button {
+      width: 150px;
+      font-size: rem(14);
     }
   }
   /*DELIVERY*/
-   .delivery__link,.delivery__subtitle{
+  .delivery__link,
+  .delivery__subtitle {
     font-size: rem(14);
   }
-  .delivery__title{
+
+  .delivery__title {
     font-size: rem(18);
+  }
+  /*products*/
+  .new__header {
+    h1 {
+      font-size: rem(20);
+    }
+  }
+  /*new user*/
+  .newuser__title{
+    font-size: rem(20)
+  }
+  .newuser__subtitle{
+    font-size: rem(14);
+  }
+  .newuser__button{
+    font-size: rem(12);
+    width:150px;
   }
 }

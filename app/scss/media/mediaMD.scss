@@ -40,6 +40,11 @@
   .burger__item{
     display:none;
   }
+  .header__search{
+    input{
+      width:150px;
+    }
+  }
   /*DELIVERY*/
   .delivery__card{
     padding-top: 22px;
@@ -50,5 +55,22 @@
   }
   .delivery__link{
     margin-top:12px;
+  }
+  /*newuser*/
+  .newuser{
+    height:auto;
+    padding-top:24px;
+    padding-bottom:24px;
+    &__button{
+      padding:12px;
+    }
+  }
+  /*footer*/
+  .footer-mid__info-form{
+    display:none;
+  }
+  .footer-top__socials{
+    gap:24px;
+    justify-content:center;
   }
 }
