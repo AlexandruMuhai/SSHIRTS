@@ -10,4 +10,11 @@ $(function(){
       $(item.children[1]).css("filter", "blur(0)")
     })
   }
+
+  $(".opinion__button").on("click",function(){
+    $(".opinion__button").fadeOut("slow",()=>{})
+    $(".opinion__form").slideDown("slow",()=>{})
+    $(".opinion__form").css("display", "flex")
+  })
+
 })

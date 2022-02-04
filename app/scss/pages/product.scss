@@ -1,0 +1,234 @@
+.breadcrumbs{
+  a{
+    color:$text_grey;
+  }
+  color:$dark_grey;
+  display:flex;
+  gap:5px;
+  margin-bottom:12px;
+}
+.product-full-wrapper{
+  margin-top:44px;
+}
+.product-full__name{
+  font-size:rem(24);
+  font-weight:500;
+  margin-bottom:44px;
+}
+.product-full__description{
+  display:flex;
+  justify-content:space-between;
+  gap:24px;
+  flex-wrap:wrap;
+}
+.product-full__main_block{
+  display:flex;
+  flex-wrap: wrap;
+  gap:92px;
+}
+.product-full__images{
+  img{
+    width:300px;
+    height: 360px;
+  }
+}
+.product-full__description-info{
+  li{
+    line-height:36px;
+  }
+  span{
+    color: $dark_grey;
+    font-weight:500;
+  }
+}
+.product-full__description-price{
+  width: 222px;
+  padding:12px 24px;
+  border-radius:4px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  span{
+    color: $main;
+  }
+  .price{
+    display:flex;
+    align-items:center;
+    gap:5px;
+    h1{
+      font-weight: 500;
+    }
+    p{
+      font-size:rem(14);
+    }
+  }
+  .delivery_price{
+    margin-top: 24px;
+    padding-bottom:44px;
+    border-bottom:1px solid $grey
+  }
+  .delivery{
+    margin-top:44px;
+    display:flex;
+    flex-direction:column;
+    gap:32px;
+    font-size:rem(14);
+    p{
+      text-align: center;
+    }
+  }
+  .product-full__button{
+    font-size:rem(16);
+    width:119px;
+    height: 39px;
+    background-color:$main_dark;
+  }
+  .telephone{
+    font-size:rem(16);
+    p{
+      text-align: center;
+      line-height:24px;
+    }
+  }
+}
+.delivery__butoon-centered{
+  display:flex;
+  justify-content:center;
+  margin-bottom:24px;
+}
+.product-full__images-description{
+  margin-top:24px;
+  max-width:608px;
+  line-height:28px;
+  border-bottom:1px solid $grey;
+}
+.product-full-wrapper{
+  padding-bottom:44px;
+}
+
+/*OPINION STYLES*/
+.opinions-wrapper{
+  border-top:1px solid $grey;
+  padding-top:24px;
+}
+.opinion__form{
+  display:none;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  gap:12px;
+  input{
+    width:384px;
+    height: 38px;
+    outline:none;
+    padding:0 16px;
+    border:1px solid $grey;
+    border-radius:4px;
+    color:#ABB5BE;
+    &::placeholder{
+      color:#ABB5BE;
+    }
+  }
+  textarea{
+    width:384px;
+    padding:16px;
+    border:1px solid $grey;
+    border-radius:4px;
+    outline:none;
+    height:66px;
+    color:#ABB5BE;
+  }
+  button{
+    border:none;
+    outline:none;
+    color:#fff;
+    background-color:$main;
+    border-radius:4px;
+    padding:10px 16px;
+  }
+}
+
+.opnion__add{
+  display:flex;
+  justify-content:space-between;
+  h1{
+    font-size:rem(32);
+    font-weight:normal;
+  }
+}
+.rate {
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    display: none;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+.opinion{
+  margin-top:44px;
+  padding-top:24px;
+  border-top:1px solid $grey;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap:24px;
+  flex-wrap:wrap;
+}
+.opinion__rate{
+  color: #ffc700;
+  font-size:24px;
+  margin-bottom:20px;
+}
+.opinion__wrapper{
+  display: flex;
+  flex-wrap:wrap;
+  gap:32px;
+}
+.opinion__user{
+  font-size:rem(14);
+  color:$text_grey;
+  line-height:20px;
+}
+.opinion__title{
+  font-size:rem(24);
+  font-weight:500;
+  margin-bottom:22px;
+}
+.opinion__info{
+  color:$text_grey;
+}
+.opinion__review{
+  display:flex;
+  gap:24px;
+  p{
+    color:$text_grey;
+    font-size: rem(14);
+  }
+}
+.review__rate{
+  display:flex;
+  gap:24px;
+}

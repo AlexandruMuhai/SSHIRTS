@@ -10,6 +10,10 @@
     display: none;
     justify-content: center;
     width:80vw;
-
+  }
+  .opinion__form{
+    input,textarea{
+      width:250px;
+    }
   }
 }
