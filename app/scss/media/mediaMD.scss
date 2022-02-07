@@ -73,4 +73,13 @@
     gap:24px;
     justify-content:center;
   }
+  /*auth*/
+  .login,.register{
+    input{
+      width:224px;
+      height: 44px;
+      font-size: rem(12)
+    }
+  }
+
 }

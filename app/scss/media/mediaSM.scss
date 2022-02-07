@@ -16,4 +16,25 @@
       width:250px;
     }
   }
+  /*auth*/
+  .login,.register{
+    input{
+      width:150px;
+      height: 40px;
+      font-size: rem(12)
+    }
+    button{
+      width:200px;
+      height:40px;
+    }
+  }
+  .google{
+    width:140px;
+  }
+  .facebook{
+    width:144px;
+  }
+  .login-socials__block{
+    gap:12px;
+  }
 }
