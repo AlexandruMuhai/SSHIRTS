@@ -37,4 +37,16 @@
   .login-socials__block{
     gap:12px;
   }
+  /*user*/
+  .user{
+    input{
+      width:250px;
+      height: 44px;
+    }
+  }
+  .user__form-half{
+    input{
+      width:90px;
+    }
+  }
 }

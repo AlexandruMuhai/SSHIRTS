@@ -1,0 +1,164 @@
+.user{
+  display:flex;
+  gap:50px;
+  position:relative;
+}
+.user-wrapper{
+  margin-top:44px;
+}
+.user-flex-content{
+  display:flex;
+  gap:30px;
+  flex-wrap:wrap;
+}
+.user-side-close, .user-side-button{
+  display:none;
+  &:hover{cursor:pointer}
+}
+.user-main{
+  h1{
+    font-size:rem(24);
+    font-weight:500;
+    margin-bottom:44px;
+  }
+  .form-button-right{
+    a{
+      margin-top:12px;
+      color:$main;
+    }
+  }
+}
+
+.user-info-main, .user-info_delivery{
+  padding:24px;
+  width:350px;
+  color:$dark_grey;
+  border: 1px solid $grey;
+  h1{
+    font-size: rem(18);
+    color:$dark_grey;
+  }
+}
+.user-info_delivery{
+  h1{
+    margin-bottom:24px;
+  }
+}
+.user-info__item{
+  padding:12px 0;
+  border-bottom: 1px solid $grey;
+  display:flex;
+  font-size:rem(16);
+  flex-direction: column;
+  gap: 8px;
+}
+.info__delivery-item{
+  line-height:24px;
+  font-size: rem(16);
+}
+.user-info__item-subtitle{
+  font-weight:500;
+}
+.user{
+  input{
+    width:420px;
+    padding:0 24px;
+    height: 54px;
+    border:1px solid $grey;
+    outline:none;
+    &:focus{
+      border:1px solid $main;
+    }
+  }
+  button{
+    width:200px;
+    height: 44px;
+    color:white;
+    background-color:$main;
+    border:none;
+    &:hover{cursor:pointer}
+  }
+}
+.user-password{
+  padding:24px;
+  display:flex;
+  gap:24px;
+  flex-direction: column;
+  width:350px;
+  height:178px;
+  input{
+    width:326px;
+    height:40px;
+    padding:0 12px;
+    border: 1px solid $grey;
+    color:$dark_grey;
+    outline:none;
+    &:focus{
+      border:1px solid $main;
+    }
+    &::placeholder{
+      color:$text_grey;
+    }
+  }
+  button{
+    width:200px;
+    height: 44px;
+    color:#fff;
+    background-color:$main;
+    border:none;
+    &:hover{cursor:pointer}
+  }
+}
+.user__side-panel{
+  border-right:1px solid $grey;
+  background:#fff;
+  li{
+    padding:10px 0;
+    padding-left:12px;
+    width:188px;
+    min-height:24px;
+    position:relative;
+    &:hover{
+      background-color: rgba(230, 232, 236, 0.5);
+      &::before{
+        content:"";
+        left:0;
+        top:0;
+        width:5px;
+        height:44px;
+        position:absolute;
+        background-color:$main_dark;
+      }
+    }
+    a{
+      display:flex;
+      align-items:center;
+      gap:8px;
+      font-weight:500;
+      font-size:rem(16);
+    }
+  }
+}
+.user__main-header{
+  display:flex;
+  gap:24px;
+  align-items:center;
+  margin-bottom:44px;
+  h1{
+    margin:0;
+  }
+}
+.user-content{
+  form{
+    display:flex;
+    flex-direction:column;
+    gap:24px;
+  }
+}
+.user__form-half{
+  input{
+    width:170px;
+  }
+  display:flex;
+  justify-content:space-between;
+}

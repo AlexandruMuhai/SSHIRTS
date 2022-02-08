@@ -82,4 +82,37 @@
     }
   }
 
+  /*user*/
+  .user{
+    input{
+      width:320px;
+      height: 44px;
+    }
+  .user-side-button{
+    display:block;
+  }
+  .user__side-panel{
+    top:40px;
+    position:absolute;
+    height:500px;
+    display:none;
+  }
+  .user-info-main, .user-info_delivery{
+    width:250px;
+  }
+  .user-password{
+    width:250px;
+    input{
+      width:226px;
+    }
+  }
+  .user-flex-content{
+    justify-content:center;
+  }
+  }
+  .user__form-half{
+    input{
+      width:120px;
+    }
+  }
 }
