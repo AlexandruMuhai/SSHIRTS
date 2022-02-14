@@ -1,6 +1,6 @@
 
 $screen:1920;
-$container-size:1170;
+$container-size:1210px;
 $container:1170px;
 
 $color:#232323;
@@ -17,4 +17,4 @@ $size:rem(18);
 $sm: 540px;
 $md: 720px;
 $lg: 960px;
-$xl: $container;
+$xl: $container-size;
