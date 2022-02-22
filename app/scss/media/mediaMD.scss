@@ -118,4 +118,42 @@
   .liked-products{
     justify-content:center;
   }
+  /*cart*/
+
+  .cart__header-item{
+    padding-right:0;
+    &::after{
+      display:none;
+    }
+  }
+  .cart_item{
+    width:400px;
+  }
+  .controle-wrapper{
+    flex-direction:column;
+  }
+  .contact-info{
+    width:auto;
+  }
+  /*Admin*/
+  .header-admin__nav{
+    font-size:rem(14)
+  }
+  .admin-sales__item{
+    gap:12px;
+  }
+  .admin-stats__sales{
+    width:95%;
+  }
+  .admin-sales__header{
+    h1{
+      &:nth-child(2){
+        margin-left:47px;
+        margin-right:116px;
+      }
+      &:nth-child(3){
+        margin-right:28px;
+      }
+    }
+  }
 }

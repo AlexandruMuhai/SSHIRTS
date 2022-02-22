@@ -36,4 +36,26 @@
     width:auto;
     gap:24px 44px;
   }
+  .cart_items-wrapper{
+    justify-content:center;
+  }
+  .contact-wrapper{
+    margin-top:44px;
+    flex-direction:column-reverse;
+    gap:44px;
+  }
+  /*admin*/
+  .admin-stats-wrapper{
+    flex-direction:column-reverse;
+    align-items:center;
+  }
+  .admin-newproduct{
+    form{
+      flex-direction:column-reverse;
+      align-items:center;
+    }
+  }
+  .admin-newproduct__img{
+    justify-content:center;
+  }
 }

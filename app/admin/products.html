@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/style.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="admin-header">
+    <div class="container">
+      <div class="header-admin__top">
+        <div class="header-admin__logo">
+          <img src="/../images/icons/admin_logo.svg" alt="">
+        </div>
+        <div class="header-admin__top-nav">
+          <p class="header-admin__theme"><img src="/../images/icons/theme.svg" alt=""> Light</p>
+          <p class="header-admin__user"><img src="/../images/icons/user_admin.svg" alt="">Alexandru Muhai</p>
+        </div>
+      </div>
+      <div class="header-admin__bottom">
+        <ul class="header-admin__nav">
+          <li><a href="">DashBoard <img src="/../images/icons/admin_arrow-down.svg" alt=""></a></li>
+          <li><a href="">Web Site Settings <img src="/../images/icons/admin_arrow-down.svg" alt=""></a></li>
+          <li><a href="">Products <img src="/../images/icons/admin_arrow-down.svg" alt=""></a></li>
+          <li><a href="">Categories <img src="/../images/icons/admin_arrow-down.svg" alt=""></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div class="products__header">
+    <div class="container">
+      <ul class="breadcrumbs">
+        <li><a href="">Home</a> / </li>
+        <li><a href="">Shirts</a> / </li>
+        <li><a href="">Men</a> / </li>
+        <li><a href="">Anime</a> / </li>
+      </ul>
+      <h1>All Products</h1>
+      <div class="button admin-products__add">Add new product</div>
+    </div>
+  </div>
+
+  <div class="side__panel-wrapper">
+    <div class="container">
+      <div class="panel__buttons">
+        <div class="filter__button"><span>Filters</span><img src="images/icons/arrow_down.svg" alt=""></div>
+        <div class="sort">
+          <div class="sort__button"><span>Popularity</span><img src="images/icons/arrow_down.svg" alt=""></div>
+          <ul class="sort__items border">
+            <li>Popularity</li>
+            <li>Popularity</li>
+            <li>Popularity</li>
+            <li>Popularity</li>
+          </ul>
+        </div>
+      </div>
+      <aside class="side-panel border">
+        <form action="">
+          <div class="side__price side-block">
+            <div class="price__button side-button">
+              <span>Price</span><img src="images/icons/arrow_down.svg" alt="">
+            </div>
+            <div class="price__content side-content">
+              <input type="text" placeholder="From"><div class="line"></div><input type="text" placeholder="To">
+            </div>
+          </div>
+
+          <div class="side__type side-block">
+            <div class="type__button side-button">
+              <span>Type</span><img src="images/icons/arrow_down.svg" alt="">
+            </div>
+            <div class="type__content side-content side-flex">
+              <div class="type__item check-item">
+                <input type="checkbox" name="" id="shirts" value="shirts">
+                <label for="shirts">Shirts</label>
+              </div>
+              <div class="type__item check-item">
+                <input type="checkbox" name="" id="shirts" value="shirts">
+                <label for="shirts">Shirts</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="side__gender side-block">
+            <div class="type__gender side-button">
+              <span>Gender</span><img src="images/icons/arrow_down.svg" alt="">
+            </div>
+            <div class="gender__content side-content side-flex">
+              <div class="gender__item check-item">
+                <input type="checkbox" name="" id="shirts" value="shirts">
+                <label for="shirts">Male</label>
+              </div>
+              <div class="gender__item check-item">
+                <input type="checkbox" name="" id="shirts" value="shirts">
+                <label for="shirts">female</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="side__size side-block">
+            <div class="type__size side-button">
+              <span>Size</span><img src="images/icons/arrow_down.svg" alt="">
+            </div>
+            <div class="size__content side-content side-flex">
+              <div class="size__item check-item">
+                <input type="checkbox" name="" id="shirts" value="shirts">
+                <label for="shirts">XS</label>
+              </div>
+              <div class="size__item check-item">
+                <input type="checkbox" name="" id="shirts" value="shirts">
+                <label for="shirts">S</label>
+              </div>
+              <div class="size__item check-item">
+                <input type="checkbox" name="" id="shirts" value="shirts">
+                <label for="shirts">M</label>
+              </div>
+              <div class="size__item check-item">
+                <input type="checkbox" name="" id="shirts" value="shirts">
+                <label for="shirts">L</label>
+              </div>
+              <div class="size__item check-item">
+                <input type="checkbox" name="" id="shirts" value="shirts">
+                <label for="shirts">XL</label>
+              </div>
+              <div class="size__item check-item">
+                <input type="checkbox" name="" id="shirts" value="shirts">
+                <label for="shirts">XLL</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="side__categories side-block">
+            <div class="type__categories side-button">
+              <span>Categories</span><img src="images/icons/arrow_down.svg" alt="">
+            </div>
+            <div class="categories__content side-content side-flex">
+              <div class="categories__item check-item">
+                <input type="checkbox" name="" id="shirts" value="shirts">
+                <label for="shirts">Anime</label>
+              </div>
+              <div class="categories__item check-item">
+                <input type="checkbox" name="" id="shirts" value="shirts">
+                <label for="shirts">Movies</label>
+              </div>
+              <div class="categories__item check-item">
+                <input type="checkbox" name="" id="shirts" value="shirts">
+                <label for="shirts">Colored</label>
+              </div>
+            </div>
+          </div>
+          <div class="side__button side-block">
+            <button type="submit">Accept</button>
+          </div>
+        </form>
+      </aside>
+    </div>
+  </div>
+
+  <div class="products-wrapper admin-products">
+    <div class="container">
+      <div class="products">
+        <div class="product border new__product">
+          <div class="product__content">
+            <div class="image-hover">
+              <img src="images/icons/heart.svg" alt="" class="like_product">
+              <img class="product__image" src="images/product.png" alt="">
+            </div>
+            <h2 class = "product__name">Red Anime Shirt</h2>
+            <p class = "product__price">120 USD</p>
+          </div>
+          <div class="button product__button">Add to Cart</div>
+        </div>
+        <div class="product border new__product">
+          <div class="product__content">
+            <div class="image-hover">
+              <img src="images/icons/heart.svg" alt="" class="like_product">
+              <img class="product__image" src="images/product.png" alt="">
+            </div>
+            <h2 class = "product__name">Red Anime Shirt</h2>
+            <p class = "product__price">120 USD</p>
+          </div>
+          <div class="button product__button">Add to Cart</div>
+        </div>
+        <div class="product border new__product">
+          <div class="product__content">
+            <div class="image-hover">
+              <img src="images/icons/heart.svg" alt="" class="like_product">
+              <img class="product__image" src="images/product.png" alt="">
+            </div>
+            <h2 class = "product__name">Red Anime Shirt</h2>
+            <p class = "product__price">120 USD</p>
+          </div>
+          <div class="button product__button">Add to Cart</div>
+        </div>
+        <div class="product border new__product">
+          <div class="product__content">
+            <div class="image-hover">
+              <img src="images/icons/heart.svg" alt="" class="like_product">
+              <img class="product__image" src="images/product.png" alt="">
+            </div>
+            <h2 class = "product__name">Red Anime Shirt</h2>
+            <p class = "product__price">120 USD</p>
+          </div>
+          <div class="button product__button">Add to Cart</div>
+        </div>
+        <div class="product border new__product">
+          <div class="product__content">
+            <div class="image-hover">
+              <img src="images/icons/heart.svg" alt="" class="like_product">
+              <img class="product__image" src="images/product.png" alt="">
+            </div>
+            <h2 class = "product__name">Red Anime Shirt</h2>
+            <p class = "product__price">120 USD</p>
+          </div>
+          <div class="button product__button">Add to Cart</div>
+        </div>
+        <div class="product border new__product">
+          <div class="product__content">
+            <div class="image-hover">
+              <img src="images/icons/heart.svg" alt="" class="like_product">
+              <img class="product__image" src="images/product.png" alt="">
+            </div>
+            <h2 class = "product__name">Red Anime Shirt</h2>
+            <p class = "product__price">120 USD</p>
+          </div>
+          <div class="button product__button">Add to Cart</div>
+        </div>
+        <div class="product border new__product">
+          <div class="product__content">
+            <div class="image-hover">
+              <img src="images/icons/heart.svg" alt="" class="like_product">
+              <img class="product__image" src="images/product.png" alt="">
+            </div>
+            <h2 class = "product__name">Red Anime Shirt</h2>
+            <p class = "product__price">120 USD</p>
+          </div>
+          <div class="button product__button">Add to Cart</div>
+        </div>
+        <div class="product border new__product">
+          <div class="product__content">
+            <div class="image-hover">
+              <img src="images/icons/heart.svg" alt="" class="like_product">
+              <img class="product__image" src="images/product.png" alt="">
+            </div>
+            <h2 class = "product__name">Red Anime Shirt</h2>
+            <p class = "product__price">120 USD</p>
+          </div>
+          <div class="button product__button">Add to Cart</div>
+        </div>
+        <div class="product border new__product">
+          <div class="product__content">
+            <div class="image-hover">
+              <img src="images/icons/heart.svg" alt="" class="like_product">
+              <img class="product__image" src="images/product.png" alt="">
+            </div>
+            <h2 class = "product__name">Red Anime Shirt</h2>
+            <p class = "product__price">120 USD</p>
+          </div>
+          <div class="button product__button">Add to Cart</div>
+        </div>
+        <div class="product border new__product">
+          <div class="product__content">
+            <div class="image-hover">
+              <img src="images/icons/heart.svg" alt="" class="like_product">
+              <img class="product__image" src="images/product.png" alt="">
+            </div>
+            <h2 class = "product__name">Red Anime Shirt</h2>
+            <p class = "product__price">120 USD</p>
+          </div>
+          <div class="button product__button">Add to Cart</div>
+        </div>
+        <div class="product border new__product">
+          <div class="product__content">
+            <div class="image-hover">
+              <img src="images/icons/heart.svg" alt="" class="like_product">
+              <img class="product__image" src="images/product.png" alt="">
+            </div>
+            <h2 class = "product__name">Red Anime Shirt</h2>
+            <p class = "product__price">120 USD</p>
+          </div>
+          <div class="button product__button">Add to Cart</div>
+        </div>
+        <div class="product border new__product">
+          <div class="product__content">
+            <div class="image-hover">
+              <img src="images/icons/heart.svg" alt="" class="like_product">
+              <img class="product__image" src="images/product.png" alt="">
+            </div>
+            <h2 class = "product__name">Red Anime Shirt</h2>
+            <p class = "product__price">120 USD</p>
+          </div>
+          <div class="button product__button">Add to Cart</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src = "../js/main.min.js"></script>
+</body>
+</html>

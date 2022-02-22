@@ -78,4 +78,15 @@
   .user-orders{
     justify-content:center;
   }
+  /*cart*/
+  .verify-wrapper{
+    flex-direction:column-reverse;
+  }
+  /*admin*/
+  .admin-dashboard-wrapper{
+    justify-content:center;
+  }
+  .admin-slider__items-wrapper, .admin-slider__buttons{
+    justify-content:center;
+  }
 }
