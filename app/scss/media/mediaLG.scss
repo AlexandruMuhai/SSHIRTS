@@ -89,4 +89,11 @@
   .admin-slider__items-wrapper, .admin-slider__buttons{
     justify-content:center;
   }
+  .add-item{
+    form{
+      flex-direction:column-reverse;
+      align-items:center;
+      gap:24px;
+    }
+  }
 }
